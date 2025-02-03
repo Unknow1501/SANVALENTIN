@@ -1,0 +1,77 @@
+/* Establecer la fuente global */
+body {
+    font-family: 'Pacifico', cursive;
+    background-color: #ffcccb;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+h1 {
+    color: #e60000;
+    margin-top: 50px;
+}
+
+/* Estilo del mensaje */
+.mensaje {
+    font-size: 1.5em;
+    color: #4a4a4a;
+    margin-top: 30px;
+}
+
+/* Estilo de los botones */
+.botones {
+    margin-top: 40px;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Botón "Sí" */
+#siButton {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Botón "No" */
+#noButton {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Efecto cuando pasas el ratón sobre los botones */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Estilo para la respuesta (imagen o animación) */
+#respuesta {
+    margin-top: 40px;
+}
+
+/* Ajuste del tamaño de la imagen */
+img {
+    width: 200px; 
+    height: auto;
+}
+
+/* Animación de la imagen llorando */
+.animated-crying {
+    animation: cryingAnimation 2s infinite;
+}
+
+/* Animación de lágrimas */
+@keyframes cryingAnimation {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
